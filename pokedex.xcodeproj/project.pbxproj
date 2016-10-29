@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010E8C1E1DC4A29F00B7F3D8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010E8C1D1DC4A29F00B7F3D8 /* Constants.swift */; };
 		016842E11DBE3ECE000C5DAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016842E01DBE3ECE000C5DAF /* AppDelegate.swift */; };
 		016842E31DBE3ECE000C5DAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016842E21DBE3ECE000C5DAF /* ViewController.swift */; };
 		016842E61DBE3ECE000C5DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016842E41DBE3ECE000C5DAF /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		010E8C1D1DC4A29F00B7F3D8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		016842DD1DBE3ECE000C5DAF /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		016842E01DBE3ECE000C5DAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		016842E21DBE3ECE000C5DAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				01843B2F1DC0F405001E58CE /* csv.swift */,
+				010E8C1D1DC4A29F00B7F3D8 /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				016842E31DBE3ECE000C5DAF /* ViewController.swift in Sources */,
 				016842E11DBE3ECE000C5DAF /* AppDelegate.swift in Sources */,
 				01843B3B1DC241BC001E58CE /* PokemonDetailVC.swift in Sources */,
+				010E8C1E1DC4A29F00B7F3D8 /* Constants.swift in Sources */,
 				01843B2B1DBF6621001E58CE /* Pokemon.swift in Sources */,
 				01843B301DC0F405001E58CE /* csv.swift in Sources */,
 			);
